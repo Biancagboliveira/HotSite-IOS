@@ -1,0 +1,265 @@
+* {
+
+    background: #ffe1c9;
+}
+
+hr{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1 {
+    margin-top: 0%;
+    text-align: center;
+    color: #854a41;
+    width: 100%;
+    
+    background: #91a89ab0;
+
+    outline: 2px solid ;
+    outline-color: #854a41;
+
+}
+
+
+
+p {
+    font-size: 130%;
+    margin: 3%;
+
+}
+
+
+
+article {
+    display: flex;
+    align-items: center;
+    margin: 10%;
+    margin-top: -1%;
+}
+
+footer {
+    display: block;
+margin-bottom: -10%;
+    width: 100%;
+    bottom: 10vh;
+    left: 0;
+    background-color: #91a89a;
+    text-align: center;
+    padding: 0px;
+    
+
+}
+
+
+
+
+p::first-letter {
+    font-size: 200%;
+    color: #854a41;
+}
+
+p:last-of-type {
+    color: #524b48;
+}
+
+#titulo {
+    margin-top: 8%;
+    margin-left: 20%;
+    color: #854a41;
+
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    font-weight: 100;
+    text-align: center;
+    max-width: 300px;
+    width: 20%;
+    outline: 3px solid;
+    outline-color: #91a89a;
+    outline-offset: 10px;
+    transition: all 200ms cubic-bezier(0.2, 2, 0, 0.2);
+}
+
+#titulo:hover{
+    color: #854a41;
+    outline-color: #91a89a;
+    outline-offset: 35px;
+}
+
+#cursos {
+
+    margin-left: 29%;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    font-size: 400%;
+    color: #854a41;
+
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    font-weight: 100;
+    text-align: center;
+    max-width: 500px;
+    width: 50%;
+    outline: 3px solid;
+    outline-color: #91a89a;
+    outline-offset: 10px;
+    transition: all 200ms cubic-bezier(0.2, 2, 0, 0.2);
+
+}
+
+#cursos:hover {
+    color: #854a41;
+    outline-color: #91a89a;
+    outline-offset: 40px;
+}
+
+#frase-de-efeito {
+    text-align: center;
+    font-size: 300%;
+
+}
+
+.texto-2 {
+    margin: 10%;
+}
+
+
+/* Logo a baixo o codigo do botão animado para destacar o link para o site oficial de inscrição*/
+
+.inscrever {
+    text-align: center;
+
+    min-width: 100px;
+    min-height: 10px;
+    letter-spacing: 0.2em;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 300px;
+    color: #854a41;
+    background: #91a89a;
+    background: linear-gradient(90deg, #91a89a 0%, #91a89a 100%);
+    border: none;
+    border-radius: 100px;
+    box-shadow: 10px 10px 20px #854a41;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 8px;
+
+}
+
+.inscrever:hover,
+.button:focus {
+    color: #854a41;
+    transform: translateY(-6px);
+}
+
+.link {
+    color: #854a41;
+    background: #91a89a;
+}
+
+a:link {
+    color: #854a41;
+    text-decoration: none;
+}
+
+a:active {
+    color: #854a41;
+}
+
+a:visited {
+    color: #854a41;
+}
+
+a:hover {
+    color: #854a41;
+}
+
+/* abaixo estilização do carrocel */
+
+.container{
+    height: 50%;
+    width: 50%;
+    overflow: hidden;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 255%;
+    left: 50%;
+
+    border-radius: 15%;
+    
+
+}
+
+.bar{
+    width: 30px;
+    height: 5px;
+    margin: 7px;
+    transition: 1.3s;
+    background: #854a41;
+}
+
+.bar:hover{
+    background-color: #687a6f;
+}
+
+.navegacao{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    
+
+   
+}
+
+input{
+    display: none;
+}
+
+.imagens{
+    display: flex;
+    height: 100%;
+    width: 700%;
+}
+
+.imagem{
+    width: 16.6666666667%;
+    transition: 3s;
+}
+
+.imagem img{
+    width: 100%;
+    height: 100%;
+}
+
+#imagem1:checked ~.img1{
+    margin-left: 0;
+}
+
+#imagem2:checked ~.img1{
+    margin-left: -16.6666666667%;
+} 
+
+#imagem3:checked ~.img1{
+    margin-left: -33.3333333334%;
+}
+
+#imagem4:checked ~.img1{
+    margin-left: -50%;
+}
+
+#imagem5:checked ~.img1{
+    margin-left: -66.6666666667%;
+}
+
+#imagem6:checked ~.img1{
+    margin-left: -83.3333333333%;
+}
+
+
+
